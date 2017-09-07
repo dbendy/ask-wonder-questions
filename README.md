@@ -1,4 +1,4 @@
 # ask-wonder-questions
 
-- [Search Request Data](SearchReqestData.md)
+- [Search Request Data](SearchRequestData.md)
 - [Nested Callbacks](NestedCallbacks.js)
