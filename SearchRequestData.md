@@ -154,7 +154,7 @@ This table exists because a user could theoretically have multiple types.
 - searchRequestId (id from SearchRequest table)
 - sourcingId (id from Sourcings Table)
 
-## Review Table
+### Review Table
 
 - id (auto-increment)
 - startedAt (timestamp)
