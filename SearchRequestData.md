@@ -2,7 +2,7 @@
 
 ## Original Data Structure
 
-``` json
+```
 {
   createdAt: { type: Number, default: Date.now, index: true },
   updatedAt: { type: Number, default: Date.now, index: true },
@@ -73,9 +73,10 @@ This is how I would restructure this search request data into relational tables:
 ### Users Table
 
 - id (auto-increment)
-- first name
-- last name
-- permissions level
+- createdAt (timestamp)
+- first name (string)
+- last name (string)
+- ???
 
 ### UserToType
 
@@ -100,6 +101,7 @@ This table exists because a user could theoretically have multiple types.
 ### Payments Table
 
 - id (auto-increment)
+- createdAt (timestamp)
 - ???
 
 ### SearchRequests Table
@@ -137,6 +139,7 @@ This table exists because a user could theoretically have multiple types.
 ### Sources Table
 
 - id (auto-increment)
+- createdAt (timestamp)
 - url (url)
 - description (string)
 - ???
